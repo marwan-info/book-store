@@ -19,7 +19,7 @@ export default function Register() {
   };
 
   return (
-    <div style={{ maxWidth: 360, margin: '40px auto' }}>
+    <div style={{ maxWidth: 500, margin: '40px auto' }}>
       <h2>Create client account</h2>
       {error && <p style={{ color: 'red' }}>{error}</p>}
       <form onSubmit={handleSubmit}>
